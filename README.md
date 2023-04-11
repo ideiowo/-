@@ -1,6 +1,6 @@
 # -
-#銀行家演算法實作
+# 銀行家演算法實作
 
 ## 使用範例
-![image](https://user-images.githubusercontent.com/107016864/231184430-679f12dd-2343-4439-9119-e532fd7ec3a1.png)
+![image](https://user-images.githubusercontent.com/107016864/231187285-003ecb2e-d54d-4f28-a759-8e9a9a8ef0b9.png)
 
