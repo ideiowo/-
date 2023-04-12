@@ -1,6 +1,7 @@
 # -
 # 銀行家演算法實作
-
+* 分別輸入
+** 進程數量
 ## 使用範例
-![image](https://user-images.githubusercontent.com/107016864/231187285-003ecb2e-d54d-4f28-a759-8e9a9a8ef0b9.png)
+![image](https://user-images.githubusercontent.com/107016864/231369775-641569f6-d4fd-44b2-b108-8954619c1377.png)
 
