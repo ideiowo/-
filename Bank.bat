@@ -1,8 +1,3 @@
-cd D:\大四課程\作業系統\Banker_Algorithm\dist
-
-
-
-:: I'm using simpler executable/script paths here for brevity
 ( 
  echo 5
  echo 6
