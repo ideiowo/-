@@ -4,7 +4,6 @@ def main():
     max_resources = [int(i) for i in input("最大資源數分別是 : ").split()]
     # 輸入系統中進程數量，資源個數以及每個資源的可用資源數，max_resources 是一個包含資源可用數量的列表。
 
-
     print("\n-- 每個進程已經分配的資源量 --")
     currently_allocated = [[int(i) for i in input(f"進程 {j + 1} : ").split()] for j in range(processes)]
     # 輸入每個進程已經分配的資源量，並且創建了一個二維列表 currently_allocated，該列表包含了每個進程已經分配的資源量。
@@ -16,7 +15,6 @@ def main():
     allocated = [0] * resources
     # 創建了一個名為 allocated 的列表，用於存儲已分配給進程的資源量。
 
-
     for i in range(processes):
         for j in range(resources):
             allocated[j] += currently_allocated[i][j]
@@ -26,8 +24,6 @@ def main():
     print(f"剛開始可用的資源量 : {available}\n")
     # 使用 max_resources 變量中的值減去 allocated 列表中的值計算出每種資源的可用數量。
 
-
-    
     running = [True] * processes
     count = processes
     while count != 0:
